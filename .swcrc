@@ -1,0 +1,16 @@
+{
+  "jsc": {
+    "externalHelpers": false,
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": true
+    },
+    "paths": {
+      "simple-tf-node/*": ["./src/simple-tf-node/*"]
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  }
+}

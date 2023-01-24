@@ -1,0 +1,16 @@
+# IDE
+.vscode
+.idea
+
+# Deps
+yarn-error.log
+node_modules
+
+# Empty folders
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+
+# Build
+dist

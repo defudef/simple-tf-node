@@ -41,7 +41,7 @@ const run = async () => {
     xShape: 2,
     yShape: 1,
     saveModel: true,
-    modelName: 'example/cars',
+    modelName: 'examples/cars',
   });
 
   const data = await DataLoader.fromJson<Data>('cars');
